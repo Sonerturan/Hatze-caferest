@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Nested1.master.cs" Inherits="project.Nested1" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+<header id="inner">
+        	<div class="header-area">
+        	  <div class="container"> 
+        		<!-- Row -->
+        		<div class="row">
+        		  <div class="col-md-2 col-sm-2 col-xs-12"> <a href="default.aspx"><img src="images/logo2.png" alt="logo"></a> </div>
+        		  <div class="col-md-10 col-sm-10 col-xs-12">
+        			<div class="row margin"> <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+                    <nav class="rs-menu">
+                      <ul class="nav-menu">
+                        <!-- Home -->
+                        <li class="current-menu-item current_page_item "> <a href="default.aspx" class="home">Anasayfa</a>
+                           
+                        </li>
+                        <li> <a href="about.aspx">Hakkımızda</a>
+                            <!-- <ul class="sub-menu">
+                                <li> <a href="about.aspx">Hakkımızda 1</a></li>
+                                <li><a href="about2.aspx">Hakkımızda 2</a></li>
+                            </ul> -->
+                        </li>
+                        <!-- End Home --> 
+                        <!-- Drop Down -->
+                        <li class="menu-item-has-children"> <a href="#">Sayfalar</a>
+                          <ul class="sub-menu">
+                            <li > <a href="event.aspx">Olaylar</a>
+                              <!--<ul class="sub-menu">
+                                <li> <a href="event-single.aspx">Etkinlikler</a> </li>
+                              </ul>-->
+                            </li>
+                            <li> <a href="gallery.aspx">Galeri</a>
+                              <!--<ul class="sub-menu">
+                                <li> <a href="gallery-single.aspx">Galeri (Tek)</a> </li>
+                              </ul>-->
+                            </li>
+                            <li><a href="testimonial.aspx">Görüşler</a></li>
+                            <li><a href="reservation.aspx">Rezervasyon</a></li>
+                            <li > <a href="shop.aspx">Mağaza</a>
+                              <!--<ul class="sub-menu">
+                                <li> <a href="shop-single.aspx">Alşveriş yap</a> </li>
+                              </ul>-->
+                            </li>
+                            <li><a href="cart.aspx">Sepet</a></li>
+                            <!--<li><a href="checkout.aspx">Çıkış Yap</a></li>
+                            <li><a href="error-404.aspx">Error 404</a></li>-->
+                          </ul>
+                        </li>
+                        <!-- Drop Down --> 
+                        <!-- Images -->
+                       <li class="rs-mega-menu mega-rs"> <a href="#">Öğünler</a>
+                          <ul class="mega-menu">
+                            <li class="mega-menu-container">
+                              <div class="mega-menu-img"> <a href="menu.aspx">
+                                <div class="mega-menu-img-meta"><img src="images/menu/1.jpg" alt="image-01"></div>
+                                <h2>FastFood</h2>
+                                </a> <a href="menu.aspx">
+                                <div class="mega-menu-img-meta"><img src="images/menu/2.jpg" alt="image-02"></div>
+                                <h2>Kahvaltı</h2>
+                                </a> <a href="menu.aspx">
+                                <div class="mega-menu-img-meta"><img src="images/menu/3.jpg" alt="image-03"></div>
+                                <h2>Alakart</h2>
+                                </a> <a href="menu.aspx">
+                                <div class="mega-menu-img-meta"><img src="images/menu/4.jpg" alt="image-04"></div>
+                                <h2>Tatlılar</h2>
+                                </a> </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <!-- End Images --> 
+                        <!--End Icons -->
+                        <li> <a href="menu.aspx">Menüler</a>
+                         <!-- <ul class="sub-menu">
+                            <li><a href="menu.aspx">Menü 1</a></li>
+                            <li><a href="menu2.aspx">Menü 2</a></li>
+                          </ul>-->
+                        </li>
+                        <li> <a href="blog.aspx">Blog</a>
+                          <!--<ul class="sub-menu">
+                            <li><a href="blog-single.aspx">Blog (1)</a></li>
+                          </ul>-->
+                        </li>
+                        <li> <a href="contact.aspx">İLETİŞİM</a>
+                        <!--<ul class="sub-menu">
+                          <li><a href="contact.aspx">1</a></li>
+                          <li><a href="contact2.aspx">2</a></li>
+                          <li><a href="contact3.aspx">3</a></li>
+                        </ul>-->
+                      </li>
+                      </ul>
+                    </nav>
+                  </div>
+        		  </div>
+        		</div>
+        		<!-- End Row --> 
+        	  </div>
+        	</div>
+		</header>
+<asp:ContentPlaceHolder ID="nestedContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>

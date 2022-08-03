@@ -1,0 +1,223 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Nested1.master" AutoEventWireup="true" CodeBehind="Nestedevent.master.cs" Inherits="project.Nestedevent" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="nestedContentPlaceHolder1" runat="server">
+
+<div class="inner-banner">
+            <img src="images/banner/10.jpg" alt="">
+            <div class="title">
+                <h1>Etkinlikler</h1>
+                <span><a href="default.aspx">Anasayfa</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Etkinlikler</span></span>
+            </div>    
+        </div>
+        <!-- Banner Section end Here -->
+
+        <!-- Blog Single Start Here -->
+        <div class="single-blog-page-area event-page-area single-event-page-area spc-equal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+
+
+<asp:ContentPlaceHolder ID="nested1nestedPlaceHolder1" runat="server">
+
+
+
+
+</asp:ContentPlaceHolder>
+
+
+
+
+
+
+
+<div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3154.225078277483!2d27.407349499092927!3d37.76132029401172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bebb3552d28b35%3A0xafd603a12c936dd2!2sHatze+CafeRest!5e0!3m2!1str!2str!4v1539333550028" width="700" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="row event-btn-share">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                <a href="reservation.aspx" class="book-btn">Şimdi Rezervasyon Yap</a>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-6">                        
+                                <div class="social-icon">                            
+                                    <ul>
+                                        <span>Paylaş:</span>
+                                        <li>
+                                            <a href="https://www.facebook.com/cafehatze/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/hatzecaferest/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                                    
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <!-- Blog Single Sidebar Start Here -->
+                        <div class="sidebar-area">
+                            <div class="search-box">
+                                <span class="title">Ara</span>
+                                <div class="box-search">
+                                    <input class="form-control" placeholder="Arama yap ..." name="srch-term" id="srch-term" type="text">
+                                    <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </div>    
+                            </div>
+                            <div class="cate-box">
+                                <span class="title">Kitaplık</span>
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="event-single1.aspx">İş Başvurusu & 1 <span>(01)</span></a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="event-single2.aspx">İş Başvurusu & 2 <span>(02)</span></a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="event-single3.aspx">Kampanyalar & 1 <span>(03)</span></a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="event-single4.aspx">Kampanyalar & 2 <span>(04)</span></a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="event-single.aspx">Kampanyalar & 3 <span>(05)</span></a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="recent-post-area">
+                                <span class="title"> Son Gönderiler</span>
+                                <ul class="news-post">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                                                <div class="item-post">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3 paddimg-right-none">
+                                                            <img src="images/single/6.jpg" alt="" title="News image" />
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9">
+                                                            <h4><a href="event-single1.aspx"> Bizimle Çalışmak İster misniz ?</a></h4>
+                                                            <span> 
+                                                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Admin </a>
+                                                            </span> 
+                                                            <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i>  8 9 2017</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                                                <div class="item-post">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3 paddimg-right-none">
+                                                            <img src="images/single/7.jpg" alt="" title="News image" />
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9">
+                                                            <h4><a href="event-single2.aspx">İş İçin Başvurun</a></h4>
+                                                            <span> 
+                                                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Admin </a>
+                                                            </span>
+                                                            <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 28.8 2018</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                      <li>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content">
+                                                <div class="item-post">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3 paddimg-right-none">
+                                                            <img src="images/single/8.jpg" alt="" title="News image" />
+                                                        </div>
+                                                        <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9">
+                                                            <h4><a href="event-single3.aspx">Çiğ Köfte Günümüz</a></h4>
+                                                            <span> 
+                                                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Admin </a>
+                                                            </span>
+                                                            <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Her Cumartesi</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tag-area">
+                                <span class="title">Ürünlerimiz</span>
+                                <ul>
+                                    <li>
+                                        <a href="menu.aspx">FastFood</a>
+                                    </li>
+                                    <li>
+                                        <a href="menu.aspx">İçecekler</a>
+                                    </li>
+                                    <li>
+                                        <a href="menu.aspx">Alakart</a>
+                                    </li>
+                                    <li>
+                                        <a href="menu.aspx">Makarna</a>
+                                    </li>
+                                    <li>
+                                        <a href="menu.aspx">Tatlılar</a>
+                                    </li>
+                                    <li>
+                                        <a href="menu.aspx">Pizza</a>
+                                    </li>
+                                    <li>
+                                        <a href="menu.aspx">Kahvaltı</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="row">
+              <div class="col-sm-12">
+                <div class="our-branches-btm">
+                  <h2 class="sec-title">Grup Şirketler</h2>
+                  <h3 class="sec-sub-title">Ziyaret Edin</h3>
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="inner">
+                      <a href="http://www.egeyazilim.net/Default.aspx"><img src="images/event/9.jpg" alt=""></a>
+                      <a href="http://www.egeyazilim.net/Default.aspx"><h3><span>Ege</span>  İnşaat</h3></a>
+                      <p>Adres : Yenikent Mahallesi Güzelyalı Sitesi No:148 Söke / AYDIN
+ Telefon : 0256 518 57 58 - 0549 518 57 58</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="inner">
+                      <a href="http://www.egeyazilim.net/Default.aspx"><img src="images/event/10.jpg" alt=""></a>
+                      <a href="http://www.egeyazilim.net/Default.aspx"><h3><span>Ege</span>  Yazılım</h3></a>
+                      <p>Adres : Yenikent Mahallesi Güzelyalı Sitesi No:148 Söke / AYDIN
+ Telefon : 0256 518 57 58 - 0549 518 57 58</p>
+                    </div>
+                  </div>
+                  
+                  
+                </div>    
+                    </div>    
+                </div>    
+            </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+</asp:Content>
